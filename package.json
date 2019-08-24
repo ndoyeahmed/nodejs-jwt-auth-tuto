@@ -1,0 +1,27 @@
+{
+  "name": "nodejs-jwt-auth-tuto",
+  "version": "1.0.0",
+  "description": "Nodejs Jwt authentication with mysql sequelize ORM",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Nodejs",
+    "Express",
+    "Jwt",
+    "Sequelize",
+    "MYSQL",
+    "Authentication"
+  ],
+  "author": "Mouhamed NDOYE",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mysql2": "^1.6.5",
+    "sequelize": "^5.16.0",
+    "body-parser": "latest"
+  }
+}
